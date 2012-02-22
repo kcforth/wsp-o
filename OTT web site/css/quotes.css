@@ -1,0 +1,88 @@
+input:focus{
+	background:rgb(244,238,224)
+}
+
+body{
+font-family: 'Coustard', serif;
+max-width: 960px;
+margin: 0 auto;
+padding: 0;
+background-image:url('../images/tropical_sand_bkgd.jpg');
+background-color:rgb(255,255,255);
+background-repeat:repeat-x;
+}
+
+h1{
+font-size: 140%;
+font-style:italic;
+text-shadow: 1px 1px 1px #666;
+margin-left:35px;
+padding: 1.0%; 	
+}
+
+head{
+float:left;
+}
+
+ul
+{
+list-style-type:none;
+margin-left:30px;
+padding:0;
+overflow:hidden;
+}
+
+#navigation li{
+float:left;
+}
+
+#navigation a:link,a:visited{
+display:block;
+width:140px;
+font-weight:bold;
+color:#FFF;
+background-color:#ff8c00;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+#navigation a:hover,a:active{
+font-weight:bold;
+color:#000;
+background-color:#FFF;
+}
+
+#site{
+width: 100%;
+margin: 0 auto;
+overflow: hidden;
+}
+
+#style label{
+display:block;
+text-align:left;
+width:16.875%;
+float:left;
+}
+
+#style input{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:67.708%;
+margin:2px 0 20px 10px;
+}
+
+#style your_message{
+clear:both;
+margin-left:15.625%;
+}
+
+#footer_menu li{
+float: left;
+display:inline;
+}
+
